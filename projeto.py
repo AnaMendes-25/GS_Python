@@ -1,5 +1,4 @@
 # Projeto Mino - Transporte de Laranja
-# Sistema simples para analisar risco climático para o transporte da laranja
 
 rotas_cadastradas = []
 
@@ -35,6 +34,14 @@ dados_climaticos = [  # Lista simulada de dados climáticos do mês de Junho
     {"dia": 29, "mes": "Junho", "temperatura": 24.1, "umidade": 70, "previsao_chuva": False, "vento": 14},
     {"dia": 30, "mes": "Junho", "temperatura": 20.8, "umidade": 78, "previsao_chuva": True, "vento": 20}
 ]
+
+#======= MENU MINO =======
+#1 - Ver descrição da solução
+#2 - Cadastrar rota de transporte
+#3 - Consultar risco de uma rota
+#4 - Ver previsão climática do mês de junho
+#5 - Listar rotas cadastradas
+#0 - Sair
 
 # Finalidade: mostrar uma descrição curta da solução Mino.
 # Parâmetros: não recebe parâmetros.
